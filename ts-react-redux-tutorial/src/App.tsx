@@ -1,12 +1,8 @@
 import React from 'react';
-import TodoApp from './containers/TodoApp';
-// import GithubPrifileLoader from './containers/GithubProfileLoader';
+import GithubPrifileLoader from './containers/GithubProfileLoader';
 
 const App: React.FC = () => {
-  return (
-    <TodoApp />
-    // <GithubPrifileLoader />
-  );
+  return <GithubPrifileLoader />
 }
 
 export default App;
